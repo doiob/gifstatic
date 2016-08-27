@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Gifstatic</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<title>Fun with Gifs</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<!-- Bootstrap CDN-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 	</head>
 	<body>
 		<div class="container">
@@ -17,18 +21,18 @@
   			</div>
   			<div class="row">
   				<div class="col-md-8">
-  				
-
-				  <form id="gif-form">
-				    <label for="gif-input">Enter type of gif</label>
-				    <input type="text" id="gif-input">
-				    
-				    <!-- Button triggers new movie to be added -->
-				    <input id="addGif" type="submit" value="Add a Gif">
-				  </form>
+  					<form class="form-inline gif-form">
+  						
+						 	 
+							 <input type="text" class="form-control" id="gif-input" placeholder="Enter the gif">
+						
+							<button id="addGif" type="submit" class="btn btn-primary">Add a different gif</button>
+					
+				 	</form>
  				</div>
+ 			</div>
   				<div id="gifView"></div>
-  			</div>
+  			
   		</div>
 <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
 

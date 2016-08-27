@@ -1,3 +1,4 @@
+	// Some initial gifs
 	var gifs = ['stick figure', 'bird', 'hummingbird', 'penguin'];
 
 	// ========================================================
@@ -48,6 +49,7 @@
 			// Note the jQUery syntax here... 
 		    var a = $('<button>') // This code $('<button>') is all jQuery needs to create the beginning and end tag. (<button></button>)
 		    a.addClass('gif'); // Added a class 
+		    a.addClass('btn')
 		    a.attr('data-name', gifs[i]); // Added a data-attribute
 		    a.text(gifs[i]); // Provided the initial button text
 		    $('#buttonsView').append(a); // Added the button to the HTML
@@ -65,7 +67,7 @@
 		// The movie from the textbox is then added to our array
 		gifs.push(gif);
 		
-		// Our array then runs which handles the processing of our movie array
+		 
 		renderButtons();
 
 		// We have this line so that users can hit "enter" instead of clicking on ht button and it won't move to the next page

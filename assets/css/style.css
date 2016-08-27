@@ -1,4 +1,6 @@
-button, div, form, input {
+ div, form, input {
 			margin: 10px;
 		}
-
+.gif{
+	margin:10px;
+}
