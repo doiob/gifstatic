@@ -7,7 +7,7 @@
 	function displayGifInfo(){
 		
 		var gif = $(this).attr('data-name');
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q="+gif+"&api_key=dc6zaTOxFJmzC&limit=5&rating=g"
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q="+gif+"&api_key=dc6zaTOxFJmzC&limit=5&rating=g"
 		//Write code between the dashes below to hit the queryURL, take the data and display it in the div with an id of moviesView
 		
 		//------YOUR CODE GOES IN THESE DASHES
